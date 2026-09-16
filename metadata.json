@@ -1,0 +1,6 @@
+{
+  "name": "Prestige Barbing Salon",
+  "description": "A luxury men's barbershop and grooming lounge featuring bespoke precision cuts, royal straight-razor shaves, and appointment booking with the founder.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

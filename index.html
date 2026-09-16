@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prestige Barbing Salon | Premium Men's Grooming Lounge</title>
+  <meta name="description" content="A luxury men's barbershop and grooming lounge featuring bespoke precision cuts, royal straight-razor shaves, and appointment booking with the founder.">
+  <meta property="og:title" content="Prestige Barbing Salon | Premium Men's Grooming Lounge">
+  <meta property="og:description" content="Sharp Cuts. Sharp Confidence. Experience master barbershop craftsmanship in a luxury lounge with our founder.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  
+  <!-- Google Fonts: Playfair Display (Serif Display) & Poppins (Clean Sans-Serif) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Bootstrap 5 CSS via CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  
+  <!-- Bootstrap Icons via CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-offset="100" tabindex="0">
+
+  <!-- =========================================================================
+       1. NAVBAR SECTION
+       Fixed/Sticky, Logo "PRESTIGE", Tagline "Barbing Salon", Nav Links, Mobile Hamburger
+       ========================================================================= -->
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNavbar">
+      <div class="container">
+        <!-- Brand Logo & Tagline -->
+        <a class="navbar-brand d-flex align-items-center gap-2 text-decoration-none" href="#home" id="brandLogo">
+          <i class="bi bi-scissors text-gold fs-3"></i>
+          <div class="navbar-brand-wrapper">
+            <span class="navbar-brand-title">PRESTIGE</span>
+            <span class="navbar-brand-subtitle">Barbing Salon</span>
+          </div>
+        </a>
+
+        <!-- Mobile Hamburger Toggle -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation" id="mobileNavToggle">
+          <i class="bi bi-list fs-3"></i>
+        </button>
+
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+          <ul class="navbar-nav align-items-lg-center me-lg-3 mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home" id="navLinkHome">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about" id="navLinkAbout">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services" id="navLinkServices">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery" id="navLinkGallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team" id="navLinkTeam">The Founder</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#booking" id="navLinkBooking">Booking</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials" id="navLinkTestimonials">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact" id="navLinkContact">Contact</a>
+            </li>
+          </ul>
+
+          <!-- Navbar CTA Button -->
+          <div class="d-flex align-items-center mt-3 mt-lg-0">
+            <a href="#booking" class="btn-gold" id="navCtaBookBtn">
+              <i class="bi bi-calendar-check"></i> Book Now
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- =========================================================================
+         2. HERO SECTION
+         Full-viewport height, dark gradient overlay, bold headline, two CTA buttons
+         ========================================================================= -->
+    <section class="hero-section" id="home">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-8 col-xl-7 hero-content">
+            <div class="hero-badge reveal-on-scroll">
+              <i class="bi bi-award-fill"></i>
+              <span>Premier Men's Grooming Club</span>
+            </div>
+            <h1 class="hero-headline reveal-on-scroll">
+              Sharp Cuts. <span class="text-gold">Sharp Confidence.</span>
+            </h1>
+            <p class="hero-subtext reveal-on-scroll">
+              Experience the art of timeless grooming in an exclusive lounge designed for the modern gentleman. Master scissor architecture, hot lather straight-razor shaves, and unrivaled bespoke hospitality.
+            </p>
+            <div class="d-flex flex-wrap gap-3 reveal-on-scroll" id="heroCtaGroup">
+              <a href="#booking" class="btn-gold" id="heroBookCta">
+                <i class="bi bi-calendar-event"></i> Book Appointment
+              </a>
+              <a href="#services" class="btn-outline-gold" id="heroServicesCta">
+                <i class="bi bi-card-checklist"></i> Our Services
+              </a>
+            </div>
+
+            <!-- Hero Stats Row -->
+            <div class="row hero-stats-row reveal-on-scroll" id="heroMetrics">
+              <div class="col-4 stat-item">
+                <h3>12+</h3>
+                <p>Years of Craft</p>
+              </div>
+              <div class="col-4 stat-item">
+                <h3>15k+</h3>
+                <p>Gentlemen Served</p>
+              </div>
+              <div class="col-4 stat-item">
+                <h3>4.9 ★</h3>
+                <p>Rated Salon</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         3. ABOUT SECTION
+         Two-column layout (image + text) describing story, experience, philosophy
+         ========================================================================= -->
+    <section class="py-5 bg-surface" id="about">
+      <div class="container py-lg-5">
+        <div class="row align-items-center g-5">
+          <!-- Left Column: Master Barber Imagery with Badge -->
+          <div class="col-lg-6 reveal-on-scroll">
+            <div class="about-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=80&w=1200&auto=format&fit=crop" alt="Master barber styling client hair at Prestige Barbing Salon" class="about-image-main img-fluid" loading="lazy" referrerPolicy="no-referrer" id="aboutMainImg">
+              <div class="about-badge-card d-none d-sm-block" id="aboutExperienceBadge">
+                <div class="num">EST. 2012</div>
+                <div class="lbl">Tradition Meets Precision</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Narrative, Philosophy, Checklist -->
+          <div class="col-lg-6 reveal-on-scroll">
+            <span class="section-tagline">Our Heritage & Craft</span>
+            <h2 class="section-title">More Than a Haircut. <br><span class="text-gold">An Elevated Ritual.</span></h2>
+            <div class="title-ornament justify-content-start">
+              <i class="bi bi-suit-diamond-fill text-gold"></i>
+            </div>
+            <p class="text-secondary mb-3">
+              Founded on the belief that men's grooming should be an unhurried, restorative experience, Prestige Barbing Salon brings classic European barbershop discipline into a sophisticated modern sanctuary.
+            </p>
+            <p class="text-secondary mb-4">
+              Every appointment begins with a thorough consultation analyzing head shape, hair texture, growth patterns, and personal lifestyle. From bespoke tapers to traditional hot-towel straight razor treatments, every service is treated as tailored architecture.
+            </p>
+
+            <div class="feature-checklist mb-4">
+              <div class="feature-check-item">
+                <i class="bi bi-check-circle-fill"></i>
+                <div>
+                  <strong class="text-light">Master Barber Craft:</strong>
+                  <span class="text-muted d-block small">Licensed professionals trained in traditional wet-shaving and modern shears precision.</span>
+                </div>
+              </div>
+              <div class="feature-check-item">
+                <i class="bi bi-check-circle-fill"></i>
+                <div>
+                  <strong class="text-light">Private Grooming Lounge:</strong>
+                  <span class="text-muted d-block small">Complimentary espresso bar, vintage leather chairs, and tailored acoustic ambiance.</span>
+                </div>
+              </div>
+              <div class="feature-check-item">
+                <i class="bi bi-check-circle-fill"></i>
+                <div>
+                  <strong class="text-light">Top-Tier Organic Apothecary:</strong>
+                  <span class="text-muted d-block small">Exclusively curated beard oils, pomades, and scalp restoratives from boutique ateliers.</span>
+                </div>
+              </div>
+            </div>
+
+            <a href="#booking" class="btn-gold" id="aboutBookBtn">
+              Reserve Your Chair <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         4. SERVICES SECTION
+         Bootstrap card grid (3-4 per row), icons, prices, descriptions, quick book button
+         ========================================================================= -->
+    <section class="py-5" id="services">
+      <div class="container py-lg-5">
+        <div class="text-center mb-5 reveal-on-scroll">
+          <span class="section-tagline">Tailored Grooming Menu</span>
+          <h2 class="section-title">Our Signature Services</h2>
+          <div class="title-ornament">
+            <i class="bi bi-scissors text-gold"></i>
+          </div>
+          <p class="text-muted mx-auto" style="max-width: 650px;">
+            Every service includes an individualized consultation, energizing scalp massage, and warm botanical hot towel finish.
+          </p>
+        </div>
+
+        <div class="row g-4" id="servicesGrid">
+          <!-- Service 1: Classic Signature Haircut -->
+          <div class="col-md-6 col-lg-4 col-xl-3 reveal-on-scroll">
+            <div class="service-card" id="serviceCard1">
+              <div class="service-icon-box">
+                <i class="bi bi-scissors"></i>
+              </div>
+              <h3 class="h5 mb-2">Signature Haircut</h3>
+              <div class="price mb-3">$45</div>
+              <p class="text-muted small mb-4">
+                Tailored scissor and clipper architecture, neck taper, invigorating shampoo wash, blow-dry styling, and hot lather neck shave.
+              </p>
+              <button class="service-book-btn book-service-trigger" data-service="Signature Haircut" id="bookTrigger1">
+                Book Service <i class="bi bi-chevron-right ms-1"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Service 2: Beard Sculpting & Trim -->
+          <div class="col-md-6 col-lg-4 col-xl-3 reveal-on-scroll">
+            <div class="service-card" id="serviceCard2">
+              <div class="service-icon-box">
+                <i class="bi bi-brush"></i>
+              </div>
+              <h3 class="h5 mb-2">Beard Sculpt & Trim</h3>
+              <div class="price mb-3">$30</div>
+              <p class="text-muted small mb-4">
+                Detailed beard shaping, length gradation, razor line-up, essential botanical oil conditioning, and soothing balm finish.
+              </p>
+              <button class="service-book-btn book-service-trigger" data-service="Beard Sculpt & Trim" id="bookTrigger2">
+                Book Service <i class="bi bi-chevron-right ms-1"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Service 3: Royal Straight Razor Shave -->
+          <div class="col-md-6 col-lg-4 col-xl-3 reveal-on-scroll">
+            <div class="service-card" id="serviceCard3">
+              <div class="service-icon-box">
+                <i class="bi bi-droplet-half"></i>
+              </div>
+              <h3 class="h5 mb-2">Royal Razor Shave</h3>
+              <div class="price mb-3">$40</div>
+              <p class="text-muted small mb-4">
+                Traditional hot lather treatment, double warm steamed eucalyptus towels, single-blade razor glide, and ice-cold tonic compression.
+              </p>
+              <button class="service-book-btn book-service-trigger" data-service="Royal Straight Razor Shave" id="bookTrigger3">
+                Book Service <i class="bi bi-chevron-right ms-1"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Service 4: The Executive Package -->
+          <div class="col-md-6 col-lg-4 col-xl-3 reveal-on-scroll">
+            <div class="service-card" id="serviceCard4" style="border-color: var(--color-border-gold) !important;">
+              <div class="badge bg-gold position-absolute top-0 end-0 m-3 px-2 py-1 small">Popular</div>
+              <div class="service-icon-box">
+                <i class="bi bi-gem"></i>
+              </div>
+              <h3 class="h5 mb-2">The Executive Cut & Shave</h3>
+              <div class="price mb-3">$75</div>
+              <p class="text-muted small mb-4">
+                Our complete indulgence: Signature Haircut, full beard sculpt or royal shave, facial hot towel compress, and premium styling finish.
+              </p>
+              <button class="service-book-btn book-service-trigger" data-service="The Executive Cut & Shave" id="bookTrigger4">
+                Book Service <i class="bi bi-chevron-right ms-1"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Service 5: Hair Coloring & Gray Blending -->
+          <div class="col-md-6 col-lg-4 col-xl-3 reveal-on-scroll">
+            <div class="service-card" id="serviceCard5">
+              <div class="service-icon-box">
+                <i class="bi bi-palette"></i>
+              </div>
+              <h3 class="h5 mb-2">Gray Blending & Color</h3>
+              <div class="price mb-3">$55</div>
+              <p class="text-muted small mb-4">
+                Subtle, natural camo color treatment formulated specifically for men to seamlessly blend gray strands or achieve custom tones.
+              </p>
+              <button class="service-book-btn book-service-trigger" data-service="Gray Blending & Color" id="bookTrigger5">
+                Book Service <i class="bi bi-chevron-right ms-1"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Service 6: Hot Towel & Facial Treatment -->
+          <div class="col-md-6 col-lg-4 col-xl-3 reveal-on-scroll">
+            <div class="service-card" id="serviceCard6">
+              <div class="service-icon-box">
+                <i class="bi bi-stars"></i>
+              </div>
+              <h3 class="h5 mb-2">Hot Towel Facial Detox</h3>
+              <div class="price mb-3">$35</div>
+              <p class="text-muted small mb-4">
+                Pore-cleansing herbal steam, exfoliating scrub, black volcanic clay mask, followed by soothing cold compress and hydrating moisturizer.
+              </p>
+              <button class="service-book-btn book-service-trigger" data-service="Hot Towel Facial Detox" id="bookTrigger6">
+                Book Service <i class="bi bi-chevron-right ms-1"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Service 7: Junior Gentleman Cut -->
+          <div class="col-md-6 col-lg-4 col-xl-3 reveal-on-scroll">
+            <div class="service-card" id="serviceCard7">
+              <div class="service-icon-box">
+                <i class="bi bi-person-badge"></i>
+              </div>
+              <h3 class="h5 mb-2">Junior Gentleman (Kids)</h3>
+              <div class="price mb-3">$30</div>
+              <p class="text-muted small mb-4">
+                Patient, stylish haircut designed for young gentlemen under 13. Includes custom clipper/scissor work, gentle shampoo, and styling.
+              </p>
+              <button class="service-book-btn book-service-trigger" data-service="Junior Gentleman (Kids Cut)" id="bookTrigger7">
+                Book Service <i class="bi bi-chevron-right ms-1"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Service 8: Scalp Therapy & Conditioning -->
+          <div class="col-md-6 col-lg-4 col-xl-3 reveal-on-scroll">
+            <div class="service-card" id="serviceCard8">
+              <div class="service-icon-box">
+                <i class="bi bi-shield-check"></i>
+              </div>
+              <h3 class="h5 mb-2">Scalp Rejuvenation</h3>
+              <div class="price mb-3">$40</div>
+              <p class="text-muted small mb-4">
+                Invigorating tea-tree exfoliation, micro-circulation scalp massage, deep follicle nourishment, and leave-in root strengthening tonic.
+              </p>
+              <button class="service-book-btn book-service-trigger" data-service="Scalp Rejuvenation" id="bookTrigger8">
+                Book Service <i class="bi bi-chevron-right ms-1"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         5. GALLERY SECTION
+         Responsive image grid showing styles/lounge interior, hover zoom effect
+         ========================================================================= -->
+    <section class="py-5 bg-surface" id="gallery">
+      <div class="container py-lg-5">
+        <div class="text-center mb-4 reveal-on-scroll">
+          <span class="section-tagline">Visual Excellence</span>
+          <h2 class="section-title">Our Masterwork & Atmosphere</h2>
+          <div class="title-ornament">
+            <i class="bi bi-camera-fill text-gold"></i>
+          </div>
+          <p class="text-muted mx-auto" style="max-width: 600px;">
+            A glimpse inside our bespoke grooming chairs and finished gentleman styling.
+          </p>
+
+          <!-- Filter Tabs -->
+          <div class="mt-4 mb-3 d-flex flex-wrap justify-content-center" id="galleryFilterGroup">
+            <button class="gallery-filter-btn active" data-filter="all" id="filterAll">All Work</button>
+            <button class="gallery-filter-btn" data-filter="haircuts" id="filterCuts">Haircuts</button>
+            <button class="gallery-filter-btn" data-filter="beards" id="filterBeards">Beards & Shaves</button>
+            <button class="gallery-filter-btn" data-filter="lounge" id="filterLounge">The Lounge</button>
+          </div>
+        </div>
+
+        <div class="row g-3 g-md-4" id="galleryGrid">
+          <!-- Gallery Item 1 -->
+          <div class="col-sm-6 col-lg-4 gallery-item-col reveal-on-scroll" data-category="haircuts">
+            <div class="gallery-item">
+              <img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?q=80&w=800&auto=format&fit=crop" alt="Precision low fade haircut with crisp line up" loading="lazy" referrerPolicy="no-referrer">
+              <div class="gallery-overlay">
+                <h5>Textured Crop & Low Fade</h5>
+                <span>Precision Scissor Work</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Gallery Item 2 -->
+          <div class="col-sm-6 col-lg-4 gallery-item-col reveal-on-scroll" data-category="beards">
+            <div class="gallery-item">
+              <img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?q=80&w=800&auto=format&fit=crop" alt="Sculpted full beard and straight razor grooming" loading="lazy" referrerPolicy="no-referrer">
+              <div class="gallery-overlay">
+                <h5>Beard Architecture & Contour</h5>
+                <span>Hot Lather Finish</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Gallery Item 3 -->
+          <div class="col-sm-6 col-lg-4 gallery-item-col reveal-on-scroll" data-category="lounge">
+            <div class="gallery-item">
+              <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=80&w=800&auto=format&fit=crop" alt="Prestige Barbing Salon leather chairs and station" loading="lazy" referrerPolicy="no-referrer">
+              <div class="gallery-overlay">
+                <h5>Vintage Belmont Chairs</h5>
+                <span>Luxury Grooming Stations</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Gallery Item 4 -->
+          <div class="col-sm-6 col-lg-4 gallery-item-col reveal-on-scroll" data-category="haircuts">
+            <div class="gallery-item">
+              <img src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?q=80&w=800&auto=format&fit=crop" alt="Classic executive side part haircut" loading="lazy" referrerPolicy="no-referrer">
+              <div class="gallery-overlay">
+                <h5>Executive Side Part</h5>
+                <span>Timeless Elegance</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Gallery Item 5 -->
+          <div class="col-sm-6 col-lg-4 gallery-item-col reveal-on-scroll" data-category="beards">
+            <div class="gallery-item">
+              <img src="https://images.unsplash.com/photo-1517832606589-7629c3397143?q=80&w=800&auto=format&fit=crop" alt="Straight razor warm shave treatment" loading="lazy" referrerPolicy="no-referrer">
+              <div class="gallery-overlay">
+                <h5>Traditional Razor Shave</h5>
+                <span>Eucalyptus Steamed Towel</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Gallery Item 6 -->
+          <div class="col-sm-6 col-lg-4 gallery-item-col reveal-on-scroll" data-category="lounge">
+            <div class="gallery-item">
+              <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?q=80&w=800&auto=format&fit=crop" alt="Prestige Barbing Salon main lounge interior" loading="lazy" referrerPolicy="no-referrer">
+              <div class="gallery-overlay">
+                <h5>Gentlemen's Waiting Lounge</h5>
+                <span>Bespoke Espresso & Spirits</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         6. FOUNDER SECTION (ONLY FOUNDER DISPLAYED - ALL OTHER EXECUTIVES REMOVED)
+         ========================================================================= -->
+    <section class="py-5" id="team">
+      <div class="container py-lg-5">
+        <div class="text-center mb-5 reveal-on-scroll">
+          <span class="section-tagline">Artisan of the Blade</span>
+          <h2 class="section-title">Meet Our Founder</h2>
+          <div class="title-ornament">
+            <i class="bi bi-star-fill text-gold"></i>
+          </div>
+          <p class="text-muted mx-auto" style="max-width: 620px;">
+            Master craftsmanship, discerning aesthetic direction, and relentless dedication to the art of men's grooming.
+          </p>
+        </div>
+
+        <div class="row justify-content-center" id="teamGrid">
+          <!-- Solo Founder Card: Updated with User's Image, All Other Executives Removed -->
+          <div class="col-md-8 col-lg-5 col-xl-4 reveal-on-scroll">
+            <div class="barber-card founder-card" id="barberCardFounder">
+              <div class="barber-photo-wrap">
+                <img src="/founder.jpg" alt="Lemuel Obiunu - Founder and Master Grooming Specialist" loading="lazy" referrerPolicy="no-referrer" id="founderImage">
+                <span class="founder-photo-badge">
+                  <i class="bi bi-patch-check-fill text-gold me-1"></i> Founder & Specialist
+                </span>
+              </div>
+              <div class="barber-card-body">
+                <h3 class="barber-name">Lemuel Obiunu</h3>
+                <div class="barber-role">Founder & Lead Specialist</div>
+                
+                <p class="text-muted small mb-3">
+                  Founder, creative director, and master grooming specialist behind Prestige Barbing Salon. Renowned for signature razor-sharp tapers, executive aesthetic architecture, and bespoke hot-towel blade craft.
+                </p>
+
+                <!-- Craft Highlights -->
+                <div class="founder-highlights">
+                  <span class="founder-highlight-item"><i class="bi bi-award"></i> 12+ Yrs Master</span>
+                  <span class="founder-highlight-item"><i class="bi bi-shield-check"></i> Licensed</span>
+                  <span class="founder-highlight-item"><i class="bi bi-gem"></i> Bespoke</span>
+                </div>
+
+                <!-- Action CTA -->
+                <div class="mt-3 mb-3">
+                  <a href="#booking" class="btn-gold w-100 justify-content-center py-2">
+                    <i class="bi bi-calendar-check"></i> Book Chair With Lemuel
+                  </a>
+                </div>
+
+                <div class="barber-socials">
+                  <a href="#" aria-label="Lemuel on Instagram"><i class="bi bi-instagram"></i></a>
+                  <a href="#" aria-label="Lemuel on X/Twitter"><i class="bi bi-twitter-x"></i></a>
+                  <a href="#" aria-label="Lemuel on LinkedIn"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         7. BOOKING SECTION
+         ========================================================================= -->
+    <section class="py-5 bg-surface" id="booking">
+      <div class="container py-lg-5">
+        <div class="text-center mb-5 reveal-on-scroll">
+          <span class="section-tagline">Reserve Your Experience</span>
+          <h2 class="section-title">Book an Appointment</h2>
+          <div class="title-ornament">
+            <i class="bi bi-calendar-event text-gold"></i>
+          </div>
+          <p class="text-muted mx-auto" style="max-width: 650px;">
+            Select your preferred treatment, date, and time. Your chair will be held and prepared for your private consultation.
+          </p>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-10 col-xl-8">
+            <div class="booking-container reveal-on-scroll" id="bookingCard">
+              <form id="appointmentForm" novalidate>
+                <div class="row g-3">
+                  <!-- Name Field -->
+                  <div class="col-md-6">
+                    <label for="bookingName" class="form-label">Full Name <span class="text-gold">*</span></label>
+                    <div class="input-group">
+                      <span class="input-group-text bg-surface border-secondary text-gold"><i class="bi bi-person"></i></span>
+                      <input type="text" class="form-control" id="bookingName" placeholder="e.g. Sterling Archer" required>
+                      <div class="invalid-feedback">Please provide your full name.</div>
+                    </div>
+                  </div>
+
+                  <!-- Phone Field -->
+                  <div class="col-md-6">
+                    <label for="bookingPhone" class="form-label">Phone Number <span class="text-gold">*</span></label>
+                    <div class="input-group">
+                      <span class="input-group-text bg-surface border-secondary text-gold"><i class="bi bi-telephone"></i></span>
+                      <input type="tel" class="form-control" id="bookingPhone" placeholder="e.g. (555) 234-5678" required pattern="^[0-9\-\+\s\(\)]{7,20}$">
+                      <div class="invalid-feedback">Please provide a valid phone number for SMS confirmation.</div>
+                    </div>
+                  </div>
+
+                  <!-- Service Dropdown -->
+                  <div class="col-md-6">
+                    <label for="bookingService" class="form-label">Service <span class="text-gold">*</span></label>
+                    <div class="input-group">
+                      <span class="input-group-text bg-surface border-secondary text-gold"><i class="bi bi-scissors"></i></span>
+                      <select class="form-select" id="bookingService" required>
+                        <option value="" selected disabled>Select a grooming service</option>
+                        <option value="Signature Haircut">Signature Haircut ($45)</option>
+                        <option value="Beard Sculpt & Trim">Beard Sculpt & Trim ($30)</option>
+                        <option value="Royal Straight Razor Shave">Royal Straight Razor Shave ($40)</option>
+                        <option value="The Executive Cut & Shave">The Executive Cut & Shave ($75)</option>
+                        <option value="Gray Blending & Color">Gray Blending & Color ($55)</option>
+                        <option value="Hot Towel Facial Detox">Hot Towel Facial Detox ($35)</option>
+                        <option value="Junior Gentleman (Kids Cut)">Junior Gentleman (Kids Cut) ($30)</option>
+                        <option value="Scalp Rejuvenation">Scalp Rejuvenation ($40)</option>
+                      </select>
+                      <div class="invalid-feedback">Please choose a service.</div>
+                    </div>
+                  </div>
+
+                  <!-- Preferred Specialist Dropdown (Only Founder) -->
+                  <div class="col-md-6">
+                    <label for="bookingBarber" class="form-label">Specialist</label>
+                    <div class="input-group">
+                      <span class="input-group-text bg-surface border-secondary text-gold"><i class="bi bi-person-badge"></i></span>
+                      <select class="form-select" id="bookingBarber">
+                        <option value="Lemuel Obiunu (Founder & Master Specialist)" selected>Lemuel Obiunu (Founder & Specialist)</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <!-- Preferred Date -->
+                  <div class="col-md-6">
+                    <label for="bookingDate" class="form-label">Preferred Date <span class="text-gold">*</span></label>
+                    <div class="input-group">
+                      <span class="input-group-text bg-surface border-secondary text-gold"><i class="bi bi-calendar3"></i></span>
+                      <input type="date" class="form-control" id="bookingDate" required>
+                      <div class="invalid-feedback">Please select a future appointment date.</div>
+                    </div>
+                  </div>
+
+                  <!-- Preferred Time -->
+                  <div class="col-md-6">
+                    <label for="bookingTime" class="form-label">Preferred Time <span class="text-gold">*</span></label>
+                    <div class="input-group">
+                      <span class="input-group-text bg-surface border-secondary text-gold"><i class="bi bi-clock"></i></span>
+                      <select class="form-select" id="bookingTime" required>
+                        <option value="" selected disabled>Select appointment time</option>
+                        <option value="09:00 AM">09:00 AM</option>
+                        <option value="10:00 AM">10:00 AM</option>
+                        <option value="11:00 AM">11:00 AM</option>
+                        <option value="12:30 PM">12:30 PM</option>
+                        <option value="01:30 PM">01:30 PM</option>
+                        <option value="02:30 PM">02:30 PM</option>
+                        <option value="03:30 PM">03:30 PM</option>
+                        <option value="04:30 PM">04:30 PM</option>
+                        <option value="05:30 PM">05:30 PM</option>
+                        <option value="06:30 PM">06:30 PM</option>
+                      </select>
+                      <div class="invalid-feedback">Please select a time slot.</div>
+                    </div>
+                  </div>
+
+                  <!-- Message / Notes -->
+                  <div class="col-12">
+                    <label for="bookingMessage" class="form-label">Special Requests or Grooming Preferences</label>
+                    <textarea class="form-control" id="bookingMessage" rows="3" placeholder="Tell us about your hair style goals, sensitive skin preferences, or beverage requests..."></textarea>
+                  </div>
+
+                  <!-- Submit Button -->
+                  <div class="col-12 text-center mt-4">
+                    <button type="submit" class="btn-gold px-5 py-3 w-100 w-md-auto" id="submitBookingBtn">
+                      <i class="bi bi-check2-circle fs-5"></i> Confirm Appointment Reservation
+                    </button>
+                    <p class="text-muted small mt-2 mb-0">
+                      <i class="bi bi-shield-lock text-gold"></i> No prepayment required. Free cancellation up to 2 hours prior.
+                    </p>
+                  </div>
+                </div>
+              </form>
+
+              <!-- Interactive Success Alert -->
+              <div class="booking-alert-success" id="bookingSuccessAlert" role="alert">
+                <div class="d-flex align-items-start gap-3">
+                  <i class="bi bi-check-circle-fill text-gold fs-2"></i>
+                  <div>
+                    <h4 class="h5 text-gold mb-1">Appointment Reservation Confirmed!</h4>
+                    <p class="text-light small mb-2">
+                      Thank you for choosing Prestige Barbing Salon. Your chair has been reserved and a confirmation SMS is en route to your device.
+                    </p>
+                    <div class="p-3 bg-surface rounded border border-secondary" id="bookingSummaryDetails">
+                      <!-- Populated dynamically via JS -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         8. TESTIMONIALS SECTION
+         ========================================================================= -->
+    <section class="py-5" id="testimonials">
+      <div class="container py-lg-5">
+        <div class="text-center mb-5 reveal-on-scroll">
+          <span class="section-tagline">Client Praise</span>
+          <h2 class="section-title">Words from the Gentlemen</h2>
+          <div class="title-ornament">
+            <i class="bi bi-chat-quote-fill text-gold"></i>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <!-- Carousel with Auto-play and pause-on-hover -->
+            <div id="testimonialCarousel" class="carousel slide reveal-on-scroll" data-bs-ride="carousel" data-bs-pause="hover">
+              <!-- Indicators -->
+              <div class="carousel-indicators mb-n4">
+                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              </div>
+
+              <!-- Slides Inner -->
+              <div class="carousel-inner pb-4">
+                <!-- Testimonial 1 -->
+                <div class="carousel-item active">
+                  <div class="testimonial-card">
+                    <div class="testimonial-quote-icon">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <p class="testimonial-text">
+                      "Prestige Barbing Salon is in a league of its own. Lemuel takes the time to understand exactly what you need. The straight razor shave with the herbal hot towel felt like an executive retreat. Flawless every single visit."
+                    </p>
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop" alt="Alexander Hayes" class="testimonial-avatar" loading="lazy" referrerPolicy="no-referrer">
+                    <h4 class="h6 mb-1 text-light">Alexander Hayes</h4>
+                    <div class="small text-gold mb-1">CEO, Apex Strategic Capital</div>
+                    <div class="star-rating">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="carousel-item">
+                  <div class="testimonial-card">
+                    <div class="testimonial-quote-icon">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <p class="testimonial-text">
+                      "As an architect, precision is everything to me. Lemuel's fade and beard shaping are mathematical perfection. The atmosphere is quiet, respectful, and upscale. Best grooming experience in the city by far."
+                    </p>
+                    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop" alt="David Sterling" class="testimonial-avatar" loading="lazy" referrerPolicy="no-referrer">
+                    <h4 class="h6 mb-1 text-light">David Sterling</h4>
+                    <div class="small text-gold mb-1">Principal Architect, Studio Nine</div>
+                    <div class="star-rating">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="carousel-item">
+                  <div class="testimonial-card">
+                    <div class="testimonial-quote-icon">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <p class="testimonial-text">
+                      "The Executive Cut & Shave package before my wedding day was phenomenal. Lemuel hosted my party in the private lounge. The espresso was hot, the ambiance was immaculate, and everyone walked out razor sharp."
+                    </p>
+                    <img src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?q=80&w=200&auto=format&fit=crop" alt="Marcus O'Connor" class="testimonial-avatar" loading="lazy" referrerPolicy="no-referrer">
+                    <h4 class="h6 mb-1 text-light">Marcus O'Connor</h4>
+                    <div class="small text-gold mb-1">Creative Director, Foundry Agency</div>
+                    <div class="star-rating">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="carousel-item">
+                  <div class="testimonial-card">
+                    <div class="testimonial-quote-icon">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <p class="testimonial-text">
+                      "Lemuel's gray camo coloring and scissor flow work made ten years disappear while maintaining a completely natural appearance. No weird brassy tint, just dignified grooming. Couldn't recommend Prestige higher."
+                    </p>
+                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=200&auto=format&fit=crop" alt="Robert Chen" class="testimonial-avatar" loading="lazy" referrerPolicy="no-referrer">
+                    <h4 class="h6 mb-1 text-light">Robert Chen</h4>
+                    <div class="small text-gold mb-1">Managing Partner, Meridian Partners</div>
+                    <div class="star-rating">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Controls -->
+              <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev" aria-label="Previous testimonial">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next" aria-label="Next testimonial">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         9. CONTACT & MAP SECTION
+         ========================================================================= -->
+    <section class="py-5 bg-surface" id="contact">
+      <div class="container py-lg-5">
+        <div class="text-center mb-5 reveal-on-scroll">
+          <span class="section-tagline">Visit Our Sanctuary</span>
+          <h2 class="section-title">Location & Hours</h2>
+          <div class="title-ornament">
+            <i class="bi bi-geo-alt-fill text-gold"></i>
+          </div>
+          <p class="text-muted mx-auto" style="max-width: 600px;">
+            Conveniently situated in the city center with reserved valet parking for our distinguished clientele.
+          </p>
+        </div>
+
+        <div class="row g-4 align-items-stretch">
+          <!-- Left Column: Contact info & Hours Table -->
+          <div class="col-lg-6 reveal-on-scroll">
+            <div class="contact-info-card">
+              <h3 class="h4 mb-4 text-light">Prestige Grooming Lounge</h3>
+              
+              <div class="contact-detail-row">
+                <div class="contact-icon-box">
+                  <i class="bi bi-geo-alt"></i>
+                </div>
+                <div>
+                  <strong class="text-light d-block">Salon Address</strong>
+                  <span class="text-muted">142 Artisan Boulevard, Suite 100<br>Metropolis City, NY 10012</span>
+                </div>
+              </div>
+
+              <div class="contact-detail-row">
+                <div class="contact-icon-box">
+                  <i class="bi bi-telephone"></i>
+                </div>
+                <div>
+                  <strong class="text-light d-block">Direct Concierge & Appointments</strong>
+                  <a href="tel:+15558392817" class="text-gold text-decoration-none">+1 (555) 839-2817</a>
+                </div>
+              </div>
+
+              <div class="contact-detail-row">
+                <div class="contact-icon-box">
+                  <i class="bi bi-envelope"></i>
+                </div>
+                <div>
+                  <strong class="text-light d-block">Inquiries & Private Bookings</strong>
+                  <a href="mailto:concierge@prestigebarbing.com" class="text-gold text-decoration-none">concierge@prestigebarbing.com</a>
+                </div>
+              </div>
+
+              <!-- Opening Hours Table -->
+              <h4 class="h6 text-gold mt-4 mb-2 text-uppercase" style="letter-spacing: 1.5px;">Operating Hours</h4>
+              <table class="hours-table">
+                <tbody>
+                  <tr>
+                    <td>Monday – Thursday</td>
+                    <td>09:00 AM – 08:00 PM</td>
+                  </tr>
+                  <tr>
+                    <td>Friday</td>
+                    <td>08:30 AM – 08:30 PM</td>
+                  </tr>
+                  <tr>
+                    <td>Saturday</td>
+                    <td>08:00 AM – 07:00 PM</td>
+                  </tr>
+                  <tr>
+                    <td>Sunday</td>
+                    <td class="text-secondary">10:00 AM – 05:00 PM (By Appointment)</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <!-- Social Links -->
+              <div class="mt-4 pt-3 border-top border-secondary">
+                <span class="text-muted small me-3 text-uppercase" style="letter-spacing: 1px;">Follow The Craft:</span>
+                <div class="d-inline-flex gap-2">
+                  <a href="#" class="footer-social-btn" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                  <a href="#" class="footer-social-btn" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                  <a href="#" class="footer-social-btn" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+                  <a href="#" class="footer-social-btn" aria-label="X Twitter"><i class="bi bi-twitter-x"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Embedded Google Maps Iframe -->
+          <div class="col-lg-6 reveal-on-scroll">
+            <div class="map-wrapper">
+              <iframe 
+                title="Prestige Barbing Salon Location Map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.15830869428!2d-74.119763973046!3d40.69766374874431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1689000000000!5m2!1sen!2sus" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       10. FOOTER
+       Logo, quick links, social icons, copyright, "Designed by Dekay"
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row g-4 justify-content-between">
+        <!-- Col 1: Brand Info -->
+        <div class="col-lg-4">
+          <div class="d-flex align-items-center gap-2 mb-3">
+            <i class="bi bi-scissors text-gold fs-3"></i>
+            <div class="navbar-brand-wrapper">
+              <span class="navbar-brand-title">PRESTIGE</span>
+              <span class="navbar-brand-subtitle">Barbing Salon</span>
+            </div>
+          </div>
+          <p class="text-muted small pe-lg-4 mb-4">
+            Prestige Barbing Salon is a sanctuary for the contemporary gentleman. Delivering world-class precision cuts, hot lather shaves, and bespoke grooming rituals since 2012.
+          </p>
+          <div class="d-flex">
+            <a href="#" class="footer-social-btn" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="footer-social-btn" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="footer-social-btn" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+            <a href="#" class="footer-social-btn" aria-label="X Twitter"><i class="bi bi-twitter-x"></i></a>
+          </div>
+        </div>
+
+        <!-- Col 2: Navigation Links -->
+        <div class="col-6 col-md-3 col-lg-2">
+          <h4 class="footer-heading">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Our Story</a></li>
+            <li><a href="#services">Grooming Menu</a></li>
+            <li><a href="#gallery">Style Gallery</a></li>
+            <li><a href="#team">The Founder</a></li>
+            <li><a href="#booking">Book Chair</a></li>
+            <li><a href="#contact">Contact & Map</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Signature Services -->
+        <div class="col-6 col-md-3 col-lg-3">
+          <h4 class="footer-heading">Top Services</h4>
+          <ul class="footer-links">
+            <li><a href="#services">Signature Haircut</a></li>
+            <li><a href="#services">Beard Sculpt & Line-Up</a></li>
+            <li><a href="#services">Royal Straight Razor Shave</a></li>
+            <li><a href="#services">The Executive Package</a></li>
+            <li><a href="#services">Gray Blending Camo</a></li>
+            <li><a href="#services">Herbal Facial Detox</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Quick Contact -->
+        <div class="col-md-6 col-lg-3">
+          <h4 class="footer-heading">Concierge</h4>
+          <p class="text-muted small mb-2">
+            <i class="bi bi-geo-alt text-gold me-2"></i> 142 Artisan Boulevard, NY
+          </p>
+          <p class="text-muted small mb-2">
+            <i class="bi bi-telephone text-gold me-2"></i> (555) 839-2817
+          </p>
+          <p class="text-muted small mb-3">
+            <i class="bi bi-clock text-gold me-2"></i> Mon–Sat: 9AM – 8PM
+          </p>
+          <a href="#booking" class="btn-gold w-100 text-center py-2">
+            <i class="bi bi-calendar-check"></i> Book Online
+          </a>
+        </div>
+      </div>
+
+      <!-- Footer Bottom Row -->
+      <div class="footer-bottom d-flex flex-column flex-md-row justify-content-between align-items-center text-muted small">
+        <div class="mb-2 mb-md-0">
+          &copy; 2026 Prestige Barbing Salon. All rights reserved.
+        </div>
+        <div class="text-gold">
+          Designed by Dekay
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button type="button" id="backToTopBtn" aria-label="Back to Top">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <!-- Bootstrap 5 JS Bundle (Popper included) via CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <!-- Custom Vanilla JavaScript Logic -->
+  <script type="module" src="/script.js"></script>
+</body>
+</html>
